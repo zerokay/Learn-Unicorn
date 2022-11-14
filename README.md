@@ -12,14 +12,12 @@
 
 ## 06 AndroidEmu: 调用JNI_Onload
 
-## 07 AndroidEmu源码分析
+## 07 AndroidEmu源码分析和Native桥接原理
 
-## 08 Native桥接原理
+## 08 x86暴力调用
 
-## 09 x86暴力调用
+## 09 OLLVM反混淆思路
 
-## 10 OLLVM反混淆思路
+## 10 开发OLLVM反混淆插件
 
-## 11 开发OLLVM反混淆插件
-
-## 12 总结
+## 11 总结
