@@ -4,8 +4,6 @@ from unicorn.arm_const import *
 from capstone import *
 from capstone.arm import *
 
-from UnicornTraceDebugger.udbg import UnicornDebugger
-
 # mov r0, #0x37;
 # sub r1, r2, r3
 ARM_CODE = b"\x37\x00\xa0\xe3\x03\x10\x42\xe0"
@@ -41,10 +39,6 @@ def test_arm():
 
         # mu.hook_add(UC_HOOK_CODE, hook_callback, begin=ADDRESS, end=ADDRESS)
         # mu.hook_add(UC_HOOK_CODE, hook_callback, begin=ADDRESS, end=ADDRESS + len(ARM_CODE))
-
-        # debugger attach
-        # udbg = UnicornDebugger(mu)
-        # udbg.add_bpt(ADDRESS)
 
         # emulate machine code in infinite time
         mu.emu_start(ADDRESS, ADDRESS + len(ARM_CODE))

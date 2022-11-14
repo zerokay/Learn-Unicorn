@@ -2,15 +2,15 @@
 
 ## 01 基本操作
 
-## 02 调用SO中函数
+## 02 UnicornDebugger
 
-## 03 AndroidEmu: 调用JNI
+## 03 直接调用SO中函数
 
-## 04 AndroidEmu: JNI与Java交互
+## 04 AndroidEmu: 调用JNI
 
-## 05 AndroidEmu: 调用JNI_Onload
+## 05 AndroidEmu: JNI与Java交互
 
-## 06 UnicornDebugger
+## 06 AndroidEmu: 调用JNI_Onload
 
 ## 07 AndroidEmu源码分析
 
